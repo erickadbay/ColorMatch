@@ -7,15 +7,6 @@
     <string name="endless_mode">Impossible</string>
     <string name="sound_off_toggleButton" translatable="false">UNMUTE</string>
     <string name="sound_on_toggleButton" translatable="false">MUTE</string>
-
-    <!--    public String blueString="Blue",
-            redString="Red",
-            greenString="Green",
-            purpleString="Purple",
-            yellowString="Yellow",
-            orangeString="Orange";
-    -->
-
     <string name="blueString">Blue</string>
     <string name="redString">Red</string>
     <string name="greenString">Green</string>
