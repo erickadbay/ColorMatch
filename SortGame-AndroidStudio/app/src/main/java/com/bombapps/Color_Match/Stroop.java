@@ -12,7 +12,14 @@ public class Stroop {
     private final boolean impossible;
     private TextObject word, lastWord;
 
-    public String blueString="Blue",redString="Red",greenString="Green",purpleString="Purple",yellowString="Yellow",orangeString="Orange";
+    //public String blueString="Blue",redString="Red",greenString="Green",purpleString="Purple",yellowString="Yellow",orangeString="Orange";
+    public String blueString = MyActivity.getContext().getString(R.string.blueString);
+    public String redString = MyActivity.getContext().getString(R.string.redString);
+    public String greenString = MyActivity.getContext().getString(R.string.greenString);
+    public String purpleString = MyActivity.getContext().getString(R.string.purpleString);
+    public String yellowString = MyActivity.getContext().getString(R.string.yellowString);
+    public String orangeString = MyActivity.getContext().getString(R.string.orangeString);
+
 
     private int color,lastColor=0,num,lastNum=0;
 

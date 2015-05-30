@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blueString">Azul</string>
+    <string name="endless_mode">Imposible</string>
+    <string name="greenString">Verde</string>
+    <string name="normal_mode">Cartas</string>
+    <string name="orangeString">Naranja</string>
+    <string name="purpleString">Morado</string>
+    <string name="redString">Rojo</string>
+    <string name="yellowString">Amarillo</string>
+</resources>

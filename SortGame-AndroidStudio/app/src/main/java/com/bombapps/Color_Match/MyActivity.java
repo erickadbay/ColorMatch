@@ -10,6 +10,7 @@ import android.view.Window;
 import android.widget.ToggleButton;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
+import android.content.Context;
 
 
 public class MyActivity extends Activity {
@@ -18,6 +19,7 @@ public class MyActivity extends Activity {
     private ScoreDataSource dataSource;
     public static int count;
     public static boolean display;
+    private static Context mContext;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,6 +42,7 @@ public class MyActivity extends Activity {
 
         count = 0;
         display = false;
+        mContext = this;
     }
 
 
@@ -99,6 +102,10 @@ public class MyActivity extends Activity {
             }
         });
 
+    }
+
+    public static Context getContext(){
+        return mContext;
     }
 
 }
