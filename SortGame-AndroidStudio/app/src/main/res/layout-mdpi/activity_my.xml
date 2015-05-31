@@ -16,9 +16,10 @@
         android:id="@+id/name_logo"
         android:layout_width="360dp"
         android:layout_height="140dp"
-        android:layout_marginTop="55dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/title_icon" />
+        android:src="@drawable/title_icon"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/stroop_mode_button"
@@ -27,7 +28,7 @@
         android:text="@string/stroop_mode"
         android:background="@color/menuButton"
         android:onClick="openStroop"
-        android:layout_centerVertical="true"
+        android:layout_above="@+id/normal_mode_button"
         android:layout_alignLeft="@+id/normal_mode_button"
         android:layout_alignStart="@+id/normal_mode_button" />
 
@@ -38,9 +39,8 @@
         android:text="@string/normal_mode"
         android:background="@color/menuButton"
         android:onClick="openNormal"
-        android:layout_below="@+id/stroop_mode_button"
-        android:layout_alignLeft="@+id/impossible_mode_button"
-        android:layout_alignStart="@+id/impossible_mode_button"
+        android:layout_above="@+id/impossible_mode_button"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp" />
 
     <Button
@@ -50,9 +50,8 @@
         android:text="@string/endless_mode"
         android:background="@color/menuButton"
         android:onClick="openImpossible"
-        android:layout_below="@+id/normal_mode_button"
-        android:layout_toRightOf="@+id/bombapps"
-        android:layout_toEndOf="@+id/bombapps"
+        android:layout_above="@+id/bombapps"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="5dp" />
 
     <ToggleButton
